@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: #f4f8fd;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid brown;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo{
+    height: 90%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+.kafelek{
+    width: 20%;
+    height: 70%;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+.kafelek:hover{
+    background-color: black;
+    color: white;
+}
+
+.home-kontener{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f8fd;
+}
+
+.home{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f4f8fd;
+    padding: 1rem;
+    margin-top: 100px;
+}
+
+.home-prawy{
+    width: 20%;
+}
+
+.home-lewy{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+}
+
+.home-lewy h1{
+    font-size: 4rem;
+}
+
+.home-lewy span{
+    font-size: 1.3rem;
+}
+
+.home-lewy button{
+    width: 30%;
+    border: none;
+    padding: 1.5em 1em;
+    color: black;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.home-lewy button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.omnie-kontener{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.kreska{
+    width: 100%;
+    height: 2px;
+    background-color: firebrick;
+    display: block;
+}
+
+.omnie-dol{
+    width: 65%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.omnie-lewy h2{
+    width: fit-content;
+}
+
+.omnie-lewy{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.omnie-lewy p{
+    font-size: 1.3rem;
+}
+
+.chlopek2{
+    width: 70%;
+    border: 8px solid #f4f8fd;
+    border-radius: 6px;
+    margin: auto;
+}
+
+.omnie-prawy{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.omnie-lewy button{
+    width: 30%;
+    border: none;
+    padding: 1.5em 1em;
+    color: black;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.omnie-lewy button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.uslugi-kontener{
+    background-color: rgb(255, 250, 244);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.uslugi-gora{
+    margin: 1.5rem;
+}
+
+.uslugi-dol{
+    width: 65%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.uslugi{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.uslugi h2{
+    margin-top: 1rem;
+}
+
+.uslugi img{
+    width: 100%;
+}
+
+.uslugi button{
+    width: 30%;
+    border: none;
+    padding: 1.5em 1em;
+    color: black;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.uslugi button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.exp-kontener{
+    background-color: rgb(255, 250, 244);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.exp-dol{
+    width: 65%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.exp{
+    background-color: white;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 4rem;
+    box-shadow: 0 0 20px 0 black;
+    border-radius: 15px;
+}
+
+.exp-gora h1{
+    margin: 2rem;
+}
+
+.exp p{
+    font-size: 17.5px;
+}
+
+.bialy{
+    width: 100%;
+    height: 7px;
+    position: relative;
+    background-color: grey;
+    border-radius: 3.5px;
+    display: block;
+}
+
+.zielony{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70%;
+    background-color: rgb(0, 151, 13);
+    height: 7px;
+    display: block;
+    border-radius: 3.5px;
+}
+
+.kontakt{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.kontakt input{
+    width: 20%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.kontakt button{
+    width: 10%;
+    border: none;
+    padding: 1.5em 1em;
+    color: black;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.kontakt input:focus, .kontakt input:hover{
+    background-color: black;
+    color: white;
+}
+
+.kontakt button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.stopka-kontener{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stopka{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 25px;
+
+}
+
+.stopka:first-child{
+    gap: 1rem;
+}
+
+.stopka a{
+    text-decoration: none;
+    color: white;
+}
